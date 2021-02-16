@@ -1,0 +1,35 @@
+MINOS 2012
+16
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x                               x
+x  xxxxxx  xxxxxxxxxxxxxxxxxxxxxx x
+x x       x                   x x
+x      xxxxxx  xxxxxxxxxx  xxxx   x
+x   x x   x   x   x           x x
+x  xx    xx  xx    xx    xx  xx   x
+x   x x x   x   x     x   x     x
+x  xx      xx        xxxx    xx  xx
+x x x x   x   x x x             x
+xxx      xxxx  xxxx    xxxxxxxx   x
+x x x       x     x x x       x x
+x    xxxx  xx  xxxxxx  xxxxxxxx  xx
+x           x       x           x
+xxx  xxxxxx    xxxx        xxxxxx x
+x x x     x x x   x x x x       x
+x                        xxxxxx   x
+x   x     x x x   x x x       x x
+x  xx          xx      xx  xxxx   x
+x x x     x x x     x x x   x   x
+x    xxxxxx      xx            xx x
+x           x x x   x x   x x   x
+x          xx  xxxxxx    xx  xx   x
+x x x x x x     x x   x   x x   x
+x        xxxxxxxx    xx  xx    xx x
+x x x x         x               x
+x      xxxxxxxx  xxxxxxxxxxxx     x
+x   x   x x                 x x x
+x      xx    xxxxxx  xxxx         x
+x x                 x     x x   x
+x    xxxxxxxxxxxxxxxxxxxxxx  xx   x
+x x                             x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

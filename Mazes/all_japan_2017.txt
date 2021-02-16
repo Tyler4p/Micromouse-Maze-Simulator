@@ -1,0 +1,35 @@
+All Japan 2017
+16
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x x                       x     x
+x  xx    xxxx      xxxx  xxxx     x
+x x   x   x   x x   x         x x
+x    xxxx    xx  xx    xxxx  xx   x
+x         x   x x   x   x     x x
+x    xxxx  xx      xxxx  xx       x
+x x   x   x         x   x   x   x
+x  xx        xxxx          xxxx   x
+x x     x     x   x x x     x   x
+x      xxxx    xxxxxx  xx         x
+x   x   x   x x   x   x   x   x x
+x  xxxx    xx  xx        xx  xx   x
+x       x   x x     x     x   x x
+x      xxxx      xx  xx          xx
+x x x         x   x x   x   x   x
+xxx  xx  xxxx            xx  xx   x
+x x x     x x x   x   x x   x   x
+x      xxxx  xxxxxx  xxxxxxxx     x
+x       x   x   x   x x   x   x x
+x  xxxx    xxxx  xxxx        xxxxxx
+x   x             x x   x       x
+xxx      xxxx    xx  xx  xxxx     x
+x x   x   x   x   x x   x x   x x
+x  xx  xx    xxxx      xx    xx   x
+x x   x       x         x     x x
+x        xxxx    xxxxxx  xxxx     x
+x   x     x       x   x         x
+x    xx    xxxx      xxxx         x
+x x x   x   x   x         x x x x
+x      xxxx    xxxx  xxxx  xxxx   x
+x x                   x         x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

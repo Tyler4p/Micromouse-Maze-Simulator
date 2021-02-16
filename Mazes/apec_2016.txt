@@ -1,0 +1,35 @@
+APEC 2016
+16
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x                               x
+x  xxxxxxxxxxxxxxxxxxxxxxxxxxxx   x
+x x                             x
+x    xxxxxxxxxxxxxxxxxxxxxxxxxx   x
+x x x       x   x   x         x x
+x      xx  xx          xxxxxx     x
+x x x x x     x x x x x   x   x x
+x        xxxxxx        xx    xx   x
+x x x x         x x x x     x   x
+x        xxxxxx        xx  xx     x
+x x x x x   x x x x   x   x x x x
+x              xx  xxxx  xx       x
+x x x x   x x     x       x   x x
+x      xxxx    xxxxxx  xxxx       x
+x x x x     x x   x     x x x x x
+x          xx        xxxx         x
+x x x x x x   x         x   x x x
+x        xx    xxxxxxxx           x
+x x x x x   x x       x x x x x x
+x          xxxxxxxx        xxxx   x
+x x x x x   x       x x x     x x
+x              xx  xx    xxxx     x
+x x x x   x x       x x     x x x
+x      xxxx  xx  xx    xxxx       x
+x x   x     x       x x   x x x x
+x  xx    xxxx  xx  xx             x
+x   x x             x   x   x x x
+x      xxxxxxxxxxxxxxxxxxxxxx     x
+x x x                         x x
+x    xxxxxxxxxxxxxxxxxxxxxxxxxx   x
+x x                             x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
