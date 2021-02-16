@@ -1,0 +1,11 @@
+Default Maze
+4
+xxxxxxxxx
+x x     x
+x xxxxx x
+x   x   x
+xxx   xxx
+x     x x
+x x xxx x
+x x     x
+xxxxxxxxx
