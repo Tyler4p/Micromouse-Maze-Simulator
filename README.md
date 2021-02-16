@@ -36,6 +36,16 @@ For this guide we will be using VirtualBox. Other virtual machine programs shoul
 
 Once VirtualBox is installed, there are two options: manually install and configure Ubuntu (or another Linux-based OS), or import a virtualization file which will automatically install Ubuntu with all the required libraries installed. 
 
+### Method 3: MacOS
+If you have homebrew installed, it is easy to install the required SDL2 libraries via the terminal:
+```
+brew install sdl2
+brew install sdl2_image
+```
+If you don't have homebrew installed, install it from [this link] (https://brew.sh)
+
+Once these libraries are installed, download the project files just like for Linux systems.
+s
 #### Import Virtual Machine (Recommended)
 For the later option, simply [download this .ova file](https://drive.google.com/file/d/1RxYdXluyUCeAe3fLh7dhtgh74nuaI9yY/view?usp=sharing) and run it--doing so will launch VirtualBox and you will be prompted to import the virtualization file. Once imported, you should see MM_Ubuntu in the list of virtual machines. Select it and click Settings > Shared Folders and click the add shared folder button. In the window that pops up, click the dropdown for the folder path field and click other. This will allow you to select a folder on your machine that will be mounted to the virtual machine, which will make it easy to edit your maze simulator code with your editor of choice running on your main OS. Be sure to select the Auto-mount option too.
 
@@ -63,6 +73,9 @@ The following can be used to control the simulation:
 - i: display credits
 - esc: exit the program
 
+#### Notes
+We are still working out a few kinks with the GUI, so there are a few bugs. To avoid some errors, avoid resizing the window while the simulation is running.
+
 ### Creating Maze Solving Algorithms
 Aside from possibly tweaking some settings variables in main.c, the intention is that none of the files aside from solver.c and solver.h should be modified. The rest of the files are driver code for the simulator--the actual maze traversal logic gets implemented in solver.c. Each maze solving algorithm function should return the next move the mouse should take when called, which can either be FORWARD, LEFT, RIGHT, or IDLE. The only functions that should be used by the mouse are getLeftReading, getFrontReading, and getRightReading, which represent the wall detecting sensors on a physical micromouse.
 
@@ -75,3 +88,11 @@ make
 ```
 This will clean out the old executable file and compile a new one. Once you have recompiled, you can run the new executable exactly as described earlier.
 
+### Using the Editor
+1) Enter a file name for the maze file. If a file with the same name exists, it will attempt to open that file. If no such file exists, then a file will be created. Note: it is recommended to add the ".txt" extension to your file name.
+2) Enter a name for the maze.
+3) Enter a maze size. This must be an integer between 2 and 16.
+
+Now the GUI should open up, and you are free to click on walls locations toggle whether or not a wall is present there.
+
+To save your work, press "s" on your keyboard.
