@@ -7,7 +7,7 @@
 // Encode headings and actions for readability
 typedef enum Heading {NORTH, EAST, SOUTH, WEST} Heading;
 typedef enum Action {LEFT, FORWARD, RIGHT, IDLE} Action;
-
+// Test
 typedef struct
 {
     int x;
