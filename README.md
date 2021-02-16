@@ -63,5 +63,15 @@ The following can be used to control the simulation:
 - i: display credits
 - esc: exit the program
 
+### Creating Maze Solving Algorithms
+Aside from possibly tweaking some settings variables in main.c, the intention is that none of the files aside from solver.c and solver.h should be modified. The rest of the files are driver code for the simulator--the actual maze traversal logic gets implemented in solver.c. Each maze solving algorithm function should return the next move the mouse should take when called, which can either be FORWARD, LEFT, RIGHT, or IDLE. The only functions that should be used by the mouse are getLeftReading, getFrontReading, and getRightReading, which represent the wall detecting sensors on a physical micromouse.
 
+To create a new maze solving algorithm function, declare it in solver.h and then implement it in solver.c. Additionally, you will need to make sure that solver(), a function forwarding function at the top of solver.c, calls your new maze solving function.
+
+Every time you make changes to any of the source files, you will need to recompile the simulator. To do so, run the following commands through the terminal from inside the Simulator folder:
+```
+make clean
+make
+```
+This will clean out the old executable file and compile a new one. Once you have recompiled, you can run the new executable exactly as described earlier.
 
