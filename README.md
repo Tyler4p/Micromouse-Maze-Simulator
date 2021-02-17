@@ -93,6 +93,6 @@ This will clean out the old executable file and compile a new one. Once you have
 2) Enter a name for the maze.
 3) Enter a maze size. This must be an integer between 2 and 16.
 
-Now the GUI should open up, and you are free to click on walls locations toggle whether or not a wall is present there.
+Now the GUI should open up, and you are free to click on wall locations to toggle whether or not a wall is present there.
 
 To save your work, press "s" on your keyboard.
