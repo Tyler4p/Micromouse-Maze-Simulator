@@ -36,6 +36,14 @@ For this guide we will be using VirtualBox. Other virtual machine programs shoul
 
 Once VirtualBox is installed, there are two options: manually install and configure Ubuntu (or another Linux-based OS), or import a virtualization file which will automatically install Ubuntu with all the required libraries installed. 
 
+#### Import Virtual Machine (Recommended)
+For the later option, simply [download this .ova file](https://drive.google.com/file/d/1RxYdXluyUCeAe3fLh7dhtgh74nuaI9yY/view?usp=sharing) and run it--doing so will launch VirtualBox and you will be prompted to import the virtualization file. Once imported, you should see MM_Ubuntu in the list of virtual machines. Select it and click Settings > Shared Folders and click the add shared folder button. In the window that pops up, click the dropdown for the folder path field and click other. This will allow you to select a folder on your machine that will be mounted to the virtual machine, which will make it easy to edit your maze simulator code with your editor of choice running on your main OS. Be sure to select the Auto-mount option too.
+
+Once you've set up a shared folder, you can now start the virtual machine. Once it boots up, open the file manager--here you should see a mounted drive named according to the name of the shared folder you specified. Enter it and navigate to a location where you want to keep the maze simulator development files, and then run the git clone command mentioned under Method 2. Alternatively, you can download the files in this repository as a zip folder and unzip it in the desired location.
+
+#### Manual Setup
+If you so chose, or you are unable to get the .ova import working, you can manually set up and configure a Linux virtual machine. [This tutorial](https://www.youtube.com/watch?v=x5MhydijWmc) is very good and goes through setting up an Ubunutu virtual machine in VirtualBox. Once you have the OS operational, the guest additions added, and a shared folder set up, you can follow the steps described in Method 1 to install the SDL2 libraries and project files to your virtual machine. Again, it is recommended that you clone the github repository somewhere in the shared folder so both the virtual machine and your main OS can access and edit the files.
+
 ### Method 3: MacOS
 If you have homebrew installed, it is easy to install the required SDL2 libraries via the terminal:
 ```
@@ -45,14 +53,6 @@ brew install sdl2_image
 If you don't have homebrew installed, install it from [this link] (https://brew.sh)
 
 Once these libraries are installed, download the project files just like for Linux systems.
-s
-#### Import Virtual Machine (Recommended)
-For the later option, simply [download this .ova file](https://drive.google.com/file/d/1RxYdXluyUCeAe3fLh7dhtgh74nuaI9yY/view?usp=sharing) and run it--doing so will launch VirtualBox and you will be prompted to import the virtualization file. Once imported, you should see MM_Ubuntu in the list of virtual machines. Select it and click Settings > Shared Folders and click the add shared folder button. In the window that pops up, click the dropdown for the folder path field and click other. This will allow you to select a folder on your machine that will be mounted to the virtual machine, which will make it easy to edit your maze simulator code with your editor of choice running on your main OS. Be sure to select the Auto-mount option too.
-
-Once you've set up a shared folder, you can now start the virtual machine. Once it boots up, open the file manager--here you should see a mounted drive named according to the name of the shared folder you specified. Enter it and navigate to a location where you want to keep the maze simulator development files, and then run the git clone command mentioned under Method 2. Alternatively, you can download the files in this repository as a zip folder and unzip it in the desired location.
-
-#### Manual Setup
-If you so chose, or you are unable to get the .ova import working, you can manually set up and configure a Linux virtual machine. [This tutorial](https://www.youtube.com/watch?v=x5MhydijWmc) is very good and goes through setting up an Ubunutu virtual machine in VirtualBox. Once you have the OS operational, the guest additions added, and a shared folder set up, you can follow the steps described in Method 1 to install the SDL2 libraries and project files to your virtual machine. Again, it is recommended that you clone the github repository somewhere in the shared folder so both the virtual machine and your main OS can access and edit the files.
 
 ## Using the Simulator
 Once everything has been set up, using the simulator is easy! First, navigate to the Simulation folder which contains the simulation source files. Right click within the folder and select open with terminal (if you are on Ubuntu). You can also manually navigate to the folder location within your terminal. Use the following command to run the simulator:
